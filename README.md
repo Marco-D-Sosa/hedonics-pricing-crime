@@ -14,7 +14,7 @@ La ubicación es uno de los principales determinantes del valor de una propiedad
 * **Flujo de trabajo automatizado y reproducible:** Todo el análisis se ejecuta desde un único script maestro, tanto en Python como en Stata.
 * **Ejemplo de hallazgo:** Un **aumento del 1% en el delito local se asocia con una caída del 0,062% en los precios de los alquileres temporarios**.
 
-**Aplicación de negocio:** Valuación inmobiliaria y fijación dinámica de precios para plataformas de alquiler y administradores de propiedades, en todos los casos donde sea necesario incorporar factores geoespaciales al precio.
+**Aplicación de negocio:** Valuación inmobiliaria y fijación de precios para plataformas de alquiler y administradores de propiedades, en todos los casos donde sea necesario incorporar factores geoespaciales al precio.
 
 ## 🧠 Dataset y Metodología
 
