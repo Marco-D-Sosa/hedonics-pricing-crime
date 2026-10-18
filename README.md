@@ -1,4 +1,4 @@
-# Modelo de Precios Hedónicos para Alquileres Temporarios en Buenos Aires
+# Modelo de Precios de Alquileres Temporarios en CABA
 
 ![Mapa de calor espacial de los precios de alquiler en CABA](map_price.png)
 
