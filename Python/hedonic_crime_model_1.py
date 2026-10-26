@@ -47,7 +47,7 @@ def prepare_data(df):
     df.loc[ df['date_m'] == '2017-07-01', 'average_tfi'] = df['average_tfi']*(100/113.8)
     df.loc[ df['date_m'] == '2018-01-01', 'average_tfi'] = df['average_tfi']*(100/127.0)
     df.loc[ df['date_m'] == '2019-04-01', 'average_tfi'] = df['average_tfi']*(100/213.1)
-    df.loc[ df['date_m'] == '2023-12-01', 'average_tfi'] = df['average_tfi']*(100/6607.7)
+    df.loc[ df['date_m'] == '2023-12-01', 'average_tfi'] = df['average_tfi']*(100/3533.2)
     df.loc[ df['date_m'] == '2024-07-01', 'average_tfi'] = df['average_tfi']*(100/6607.7)
     df.loc[ df['date_m'] == '2024-08-01', 'average_tfi'] = df['average_tfi']*(100/6883.4)
     df.loc[ df['date_m'] == '2024-09-01', 'average_tfi'] = df['average_tfi']*(100/7122.2)
