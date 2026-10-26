@@ -12,7 +12,7 @@ La ubicación es uno de los principales determinantes del valor de una propiedad
 * **Construcción de un dataset desde cero:** Construí, limpié y consolidé un dataset de panel propio con más de **145.000 observaciones**, integrando fuentes de datos públicas dispares.
 * **Modelos de precios para el sector inmobiliario:** Un modelo hedónico espacial que aísla el efecto de cada atributo de ubicación sobre el precio, un enfoque ampliamente utilizado en la valuación inmobiliaria.
 * **Flujo de trabajo automatizado y reproducible:** Todo el análisis se ejecuta desde un único script maestro, tanto en Python como en Stata.
-* **Ejemplo de hallazgo:** Un **aumento del 1% en el delito local se asocia con una caída del 0,062% en los precios de los alquileres temporarios**.
+* **Ejemplo de hallazgo:** Un **aumento del 1% en el delito local se asocia con una caída del 0,065% en los precios de los alquileres temporarios**.
 
 **Aplicación de negocio:** Valuación inmobiliaria y fijación de precios para plataformas de alquiler y administradores de propiedades, en todos los casos donde sea necesario incorporar factores geoespaciales al precio.
 
