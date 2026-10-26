@@ -39,7 +39,7 @@ def generate_results(df):
     plt.axis('off')
     plt.show()
     df_collapsed4 = df.groupby('id_neighborhood')['tot_crimes'].mean().reset_index()
-    df_collapsed4['id_neighborhood'] = df_collapsed3['id_neighborhood'].astype(str)
+    df_collapsed4['id_neighborhood'] = df_collapsed4['id_neighborhood'].astype(str)
     gdf_map2 = gdf_neighborhoods.merge(df_collapsed4, left_on='id', right_on='id_neighborhood')
     gdf_map2.plot(
     column='tot_crimes', 
@@ -67,7 +67,6 @@ def generate_results(df):
     df = df[~df['date'].isin(periodos_a_eliminar)].copy()
     # A Random Effects (RE) estimator is used instead of pooled OLS to leverage the panel structure.
     # This controls for unobserved heterogeneity, while time dummies (C(date)) capture macroeconomic seasonality.
-    model_re = RandomEffects.from_formula(formula, data=df, check_rank=False)
     model_re = RandomEffects.from_formula(formula, data=df, check_rank=False)
     results = model_re.fit(cov_type='robust')
     print("--- Main econometric model ---")
