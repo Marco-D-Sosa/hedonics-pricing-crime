@@ -20,7 +20,7 @@ La ubicación es uno de los principales determinantes del valor de una propiedad
 
 Dado que los precios de los alquileres temporarios reflejan la disposición a pagar por una vivienda transitoria en una ubicación específica, los datos capturan de manera inherente la prima o la penalización asociada a los atributos del barrio, incluida la seguridad percibida.
 
-Para facilitar la transparencia y la reproducibilidad, construí el dataset de forma independiente mediante scraping, limpieza e integración de:
+Para facilitar la transparencia y la reproducibilidad, construí el dataset mediante limpieza e integración de:
 * Datos de alquileres temporarios de **Inside Airbnb**.
 * Registros oficiales de delitos, características geográficas e indicadores socioeconómicos (por ejemplo, el ingreso familiar promedio) del **Portal de Datos Abiertos del Gobierno de la Ciudad de Buenos Aires**.
 
